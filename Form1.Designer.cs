@@ -95,10 +95,14 @@ namespace VideoToAudio
             // 
             this.outputFormat.FormattingEnabled = true;
             this.outputFormat.Items.AddRange(new object[] {
+            "avi",
             "aiff",
+            "codec2",
+            "mov",
             "flac",
             "mp3",
             "ogg",
+            "oga",
             "wav"});
             this.outputFormat.Location = new System.Drawing.Point(70, 67);
             this.outputFormat.Name = "outputFormat";
